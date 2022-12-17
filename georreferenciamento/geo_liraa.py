@@ -7,7 +7,7 @@ from geopy import geocoders
 from geopy.exc import GeocoderQuotaExceeded
 import unicodedata
 
-g = geocoders.GoogleV3(api_key='AIzaSyDJFVz3ows0GcKLGYny4Ot82xPewMcbeig',timeout=10)
+g = geocoders.GoogleV3(api_key='OMITIDO',timeout=10)
 
 with open('liraa2018.csv', 'r', encoding='ISO-8859-1') as csvfile1:
     with open('saida2018.csv', 'w', encoding='utf-8') as csvfile2:
