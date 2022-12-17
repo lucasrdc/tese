@@ -5,7 +5,7 @@ import csv
 from geopy import geocoders
 from geopy.exc import GeocoderQuotaExceeded
 
-g = geocoders.GoogleV3(api_key='AIzaSyBZwX_IOQK8X0_UnQzhZDtOAEfC07Dseis',timeout=10)
+g = geocoders.GoogleV3(api_key='OMITIDO',timeout=10)
 
 with open('enderecos.csv', 'r', encoding='ISO-8859-1') as csvfile1:
     with open('saida.csv', 'w', encoding='utf-8') as csvfile2:
